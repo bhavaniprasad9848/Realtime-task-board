@@ -1,0 +1,13 @@
+{
+  "name": "realtime-task-board",
+  "private": true,
+  "description": "Real-time collaborative Kanban board (React + Node.js + MongoDB + Socket.IO)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix client run build"
+  },
+  "license": "MIT"
+}
